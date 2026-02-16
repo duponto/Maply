@@ -1,4 +1,4 @@
-﻿namespace Maply.Internal
+﻿namespace Internal
 {
     internal sealed class Mapper
     {

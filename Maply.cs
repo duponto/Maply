@@ -2,8 +2,6 @@
 using System.Linq.Expressions;
 using System.Reflection;
 
-namespace Maply;
-
 public class Mapper
 {
     private static readonly ConcurrentDictionary<(Type Source, Type Destination), Delegate> Cache = new();
