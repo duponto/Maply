@@ -1,6 +1,6 @@
 ﻿using System.Collections.Concurrent;
 
-namespace Internal
+namespace Maply.Internal
 {
     internal sealed class MappingCache
     {
