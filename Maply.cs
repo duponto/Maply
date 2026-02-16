@@ -4,19 +4,19 @@ using System.Reflection;
 
 namespace Maply;
 
-public static class Mapper
+public class Mapper
 {
     private static readonly ConcurrentDictionary<(Type Source, Type Destination), Delegate> Cache = new();
 
-    public static TDestination Map<TSource, TDestination>(TSource source)
+    public static TDestination Map<TDestination>(object source)
         where TDestination : new()
     {
         if (source is null)
             throw new ArgumentNullException(nameof(source));
 
-        var key = (typeof(TSource), typeof(TDestination));
+        var key = (typeof(object), typeof(TDestination));
 
-        var mapper = (Func<TSource, TDestination>)Cache.GetOrAdd(key, _ => CreateMap<TSource, TDestination>());
+        var mapper = (Func<object, TDestination>)Cache.GetOrAdd(key, _ => CreateMap<object, TDestination>());
 
         return mapper(source);
     }

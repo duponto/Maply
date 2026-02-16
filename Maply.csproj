@@ -7,7 +7,7 @@
 
 	<GeneratePackageOnBuild>true</GeneratePackageOnBuild>
 	<LangVersion>latest</LangVersion>
-	<Version>0.1.2.3</Version>
+	<Version>0.1.2.5</Version>
 	<Authors>Gabriel Dupont Muenchen</Authors>
 	<PackageReadmeFile>README.md</PackageReadmeFile>
 	<Description>A lightweight, convention-based object mapper for .NET focused on high performance and minimal configuration. Additional capabilities are being evaluated for future versions while maintaining strict performance goals.</Description>
