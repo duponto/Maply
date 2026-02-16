@@ -4,7 +4,7 @@ using System.Reflection;
 
 namespace TypeBridge;
 
-public static class TypeBridge
+public static class Maply
 {
     private static readonly ConcurrentDictionary<(Type Source, Type Destination), Delegate> Cache = new();
 
