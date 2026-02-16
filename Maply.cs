@@ -4,7 +4,7 @@ using System.Reflection;
 
 namespace Maply;
 
-public static class Maply
+public static class Mapper
 {
     private static readonly ConcurrentDictionary<(Type Source, Type Destination), Delegate> Cache = new();
 
