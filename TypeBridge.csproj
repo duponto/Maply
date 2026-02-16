@@ -1,7 +1,21 @@
 ﻿<Project Sdk="Microsoft.NET.Sdk">
 
   <PropertyGroup>
-    <TargetFramework>netstandard2.0</TargetFramework>
+    <TargetFramework>net8.0</TargetFramework>
+	<ImplicitUsings>enable</ImplicitUsings>
+	<Nullable>enable</Nullable>
+
+	<GeneratePackageOnBuild>true</GeneratePackageOnBuild>
+	<LangVersion>latest</LangVersion>
+	<Version>0.1.0</Version>
+	<Authors>Gabriel Dupont Muenchen</Authors>
+	<Description>A lightweight, convention-based object mapper for .NET focused on high performance and minimal configuration. Additional capabilities are being evaluated for future versions while maintaining strict performance goals.</Description>
+
+	<PackageTags>mapping;performance;object-mapper;dotnet</PackageTags>
+	<PackageLicenseExpression>MIT</PackageLicenseExpression>
+	<RepositoryType>git</RepositoryType>
+	<RepositoryUrl>https://github.com/duponto/TypeBridge</RepositoryUrl>
+	<PackageRequireLicenseAcceptance>false</PackageRequireLicenseAcceptance>
   </PropertyGroup>
 
 </Project>
