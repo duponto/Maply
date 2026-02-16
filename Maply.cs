@@ -2,7 +2,7 @@
 using System.Linq.Expressions;
 using System.Reflection;
 
-namespace TypeBridge;
+namespace Maply;
 
 public static class Maply
 {

@@ -1,6 +1,6 @@
 ﻿using System.Collections.Concurrent;
 
-namespace TypeBridge.Mapping
+namespace Maply.Mapping
 {
     internal sealed class MappingCache
     {

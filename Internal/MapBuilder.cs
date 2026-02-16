@@ -1,6 +1,6 @@
 ﻿using System.Linq.Expressions;
 using System.Reflection;
-namespace TypeBridge.Mapping
+namespace Maply.Mapping
 {
     internal sealed class MapBuilder
     {

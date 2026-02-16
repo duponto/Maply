@@ -1,4 +1,4 @@
-﻿namespace TypeBridge.Mapping
+﻿namespace Maply.Mapping
 {
     internal sealed class Mapper
     {
