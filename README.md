@@ -3,6 +3,16 @@ Maply is a minimal, convention-based object mapper for .NET.
 It focuses on high-performance property-to-property mapping
 when advanced configuration is not required.
 
+## Usage
+
+```csharp
+using Maply;
+
+var destination = Mapper.Map<Destination>(source);
+```
+
+Maply copies public properties with matching names and types.
+
 ## Features
 
 - Zero configuration
